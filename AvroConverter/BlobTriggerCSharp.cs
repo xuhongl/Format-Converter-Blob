@@ -39,13 +39,13 @@ namespace Company.Function
                         var Properties = record.Properties;
 
                         var bodyText = Encoding.UTF8.GetString(record.Body);
-                        Console.WriteLine($@"Before: 
-                        ""sequenceNumber"": {sequenceNumber}, 
-                        ""Offset"": {Offset}, 
-                        ""EnqueuedTimeUtc"": {EnqueuedTimeUtc}, 
-                        ""SystemProperties"": {SystemProperties}, 
-                        ""Properties"": {Properties}, 
-                        ""bodyText"": {bodyText}");
+                        // Console.WriteLine($@"Before: 
+                        // ""sequenceNumber"": {sequenceNumber}, 
+                        // ""Offset"": {Offset}, 
+                        // ""EnqueuedTimeUtc"": {EnqueuedTimeUtc}, 
+                        // ""SystemProperties"": {SystemProperties}, 
+                        // ""Properties"": {Properties}, 
+                        // ""bodyText"": {bodyText}");
 
                         // Console.WriteLine($@"After:
                         // [Audit]
