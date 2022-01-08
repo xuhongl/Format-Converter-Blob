@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Azure.WebJobs.Extensions.Storage" Version="3.0.4" />
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.29" />
-    <PackageReference Include="Apache.Avro" Version="1.7.7.2" />
+    <PackageReference Include="Apache.Avro" Version="1.11.0" />
     <PackageReference Include="Microsoft.Hadoop.Avro-Core" Version="1.1.19" />
   </ItemGroup>
   <ItemGroup>
